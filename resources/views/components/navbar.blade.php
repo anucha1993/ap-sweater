@@ -1,11 +1,11 @@
-<nav class="bg-[#FFD600] border-b border-yellow-400 sticky top-0 z-50">
+<nav class="bg-[#FFD600] border-b border-yellow-w sticky top-0 z-50">
     <div class="container mx-auto px-4 py-2 flex items-center justify-between text-sm text-black">
 
      
 
         {{-- โลโก้ --}}
         <div class="flex-shrink-0">
-            <a href="/" class="text-3xl font-black text-black tracking-wide">AP Sweater</a>
+            <a href="/" class="text-1xl font-black text-black tracking-wide">AP Sweater</a>
 
         </div>
 
