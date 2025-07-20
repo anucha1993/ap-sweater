@@ -5,7 +5,7 @@
 
         {{-- โลโก้ --}}
         <div class="flex-shrink-0">
-            <a href="/" class="text-2xl font-black text-black tracking-wide">AP Sweater</a>
+            <a href="/" class="text-1xl font-black text-black tracking-wide">AP Sweater</a>
 
         </div>
 
