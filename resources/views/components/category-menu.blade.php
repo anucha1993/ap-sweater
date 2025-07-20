@@ -1,47 +1,34 @@
-{{-- หมวดหมู่เมนูสินค้า --}}
-<div class="flex justify-center gap-6 text-sm font-medium text-gray-800">
-
+{{-- CATEGORY MENU --}}
+<div class="flex justify-center gap-8 flex-wrap text-sm text-gray-800 font-medium my-4">
     {{-- ผู้หญิง --}}
-    <a href="#"
-       class="flex items-center gap-1 {{ request()->is('women*') ? 'text-yellow-500 font-bold' : 'hover:text-yellow-400' }}">
-        <svg class="w-4 h-4 text-yellow-400" fill="none" stroke="currentColor" stroke-width="2"
-             viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round"
-                  d="M12 14a4 4 0 1 0-4-4 4 4 0 0 0 4 4Zm0 0v4m0 0h-2m2 0h2m-4 0h-4m8 0h4"/>
-        </svg>
-        ผู้หญิง
+    <a href="#" class="flex flex-col items-center group">
+        {{-- <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-400 group-hover:text-yellow-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14v7m0-7a5 5 0 100-10 5 5 0 000 10zm0 0h5m-5 0H7" />
+        </svg> --}}
+        <span class="mt-1">ผู้หญิง</span>
     </a>
 
     {{-- ผู้ชาย --}}
-    <a href="#"
-       class="flex items-center gap-1 {{ request()->is('men*') ? 'text-yellow-500 font-bold' : 'hover:text-yellow-400' }}">
-        <svg class="w-4 h-4 text-yellow-400" fill="none" stroke="currentColor" stroke-width="2"
-             viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round"
-                  d="M12 14a4 4 0 1 0-4-4 4 4 0 0 0 4 4Zm0 0v6m4-4h-8"/>
-        </svg>
-        ผู้ชาย
+    <a href="#" class="flex flex-col items-center group">
+        {{-- <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-400 group-hover:text-yellow-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14v7m0-7a5 5 0 100-10 5 5 0 000 10zm0 0h5m-5 0H7" />
+        </svg> --}}
+        <span class="mt-1">ผู้ชาย</span>
     </a>
 
     {{-- สินค้าขายดี --}}
-    <a href="#"
-       class="flex items-center gap-1 {{ request()->is('others*') ? 'text-yellow-500 font-bold' : 'hover:text-yellow-400' }}">
-        <svg class="w-4 h-4 text-yellow-400" fill="none" stroke="currentColor" stroke-width="2"
-             viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round"
-                  d="M12 4v16m8-8H4"/>
-        </svg>
-        สินค้าขายดี
+    <a href="#" class="flex flex-col items-center group">
+        {{-- <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-400 group-hover:text-yellow-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v8m4-4H8" />
+        </svg> --}}
+        <span class="mt-1">สินค้าขายดี</span>
     </a>
 
     {{-- สินค้าลดราคา --}}
-    <a href="#"
-       class="flex items-center gap-1 {{ request()->is('sale*') ? 'text-yellow-500 font-bold' : 'hover:text-yellow-400' }}">
-        <svg class="w-4 h-4 text-yellow-400" fill="none" stroke="currentColor" stroke-width="2"
-             viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round"
-                  d="M12 8v4l3 3m6 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0z"/>
-        </svg>
-        สินค้าลดราคา
+    <a href="#" class="flex flex-col items-center group">
+        {{-- <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-400 group-hover:text-yellow-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3" />
+        </svg> --}}
+        <span class="mt-1">สินค้าลดราคา</span>
     </a>
 </div>
